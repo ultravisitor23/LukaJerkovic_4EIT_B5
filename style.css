@@ -1,0 +1,89 @@
+table, th, td {
+    border: 1px solid rgb(107, 172, 33);
+    border-style: inset;
+}
+
+th, td {
+    width: 128px;
+    height: 64px;
+}
+
+table {
+    background-color: rgb(162, 218, 99);
+    font-family: Century Gothic;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+}
+
+h1 {
+    color: rgb(107, 172, 33);
+    font-family: Century Gothic;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(107, 172, 33);
+}
+
+h2 {
+    color: rgb(107, 172, 33);
+    font-family: Century Gothic;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(107, 172, 33);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(107, 172, 33);
+    color: rgb(162, 218, 99);
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+.leftext {
+    width: 64px;
+    font-size: 64px;
+    font-family: Century Gothic;
+    color: rgb(107, 172, 33);
+    text-shadow: 0px 0px 10px rgb(107, 172, 33);
+    display: inline-block;
+    text-align: center;
+    text-orientation: upright;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 11px;
+    font-family: Calibri;
+}
+
+#nav {
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: rgb(162, 218, 99);
+    color: rgb(107, 172, 33);
+}
+
+#nav ul a li {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 140px;
+    color: rgb(107, 172, 33);
+}
+ 
+#nav ul a li:hover {
+    color: rgb(162, 218, 99);
+    background-color:rgb(107, 172, 33);
+}

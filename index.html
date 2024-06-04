@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvuci Instrumenata -- Početna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#ebf959;">
+    <h1>OSNOVNA ŠKOLA "SONJA MARINKOVIĆ"</h1>
+    <div id="nav">
+        <ul>
+            <a href="index.html"><li>Početna</li></a>
+            <a href="o_autoru.html"><li>O autoru</li></a>
+            <a href="uputstvo.html"><li>Uputstvo</li></a>
+        </ul>
+    </div>
+    <h2>Zvuci instrumenata</h2>
+    
+    <div class="center" style="width:1024px;">
+        <div class="leftext">
+            <p>
+                M<br>
+                u<br>
+                z<br>
+                i<br>
+                č<br>
+                k<br>
+                a<br>
+            </p>
+        </div>
+        <div class="leftext">
+            <p>
+                k<br>
+                u<br>
+                l<br>
+                t<br>
+                u<br>
+                r<br>
+                a<br>
+            </p>
+        </div>
+        <div class="leftext">
+            <p>
+            </p>
+        </div>
+        <table>
+            <tbody>
+            <tr style="background-color: rgb(107, 172, 33); color: rgb(162, 218, 99); font-family: Calibri; font-size: 16px">
+            <td>Naziv Instrumenta</td>
+            <td>Slika Instrumenta</td>
+            <td>Zvuk Instrumenta</td>
+            </tr>
+            <tr>
+            <td>Gitara</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%93%D0%B8%D1%82%D0%B0%D1%80%D0%B0" target="_blank"><img src="Slike/gitara.png" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="gitara" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Gitara" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            <tr>
+            <td>Violina</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0" target="_blank"><img src="Slike/violina.png" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="violina" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Violina" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            <tr>
+            <td>Klavir</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D1%80" target="_blank"><img src="Slike/klavir.jpg" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="klavir" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Klavir" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            <tr>
+            <td>Bubnjevi</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%91%D1%83%D0%B1%D1%9A%D0%B5%D0%B2%D0%B8" target="_blank"><img src="Slike/bubnjevi.jpg" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="bubnjevi" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Bubnjevi" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            <tr>
+            <td>Harmonika</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0" target="_blank"><img src="Slike/harmonika.jpg" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="harmonika" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Harmonika" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            <tr>
+            <td>Kontrafagot</td>
+            <td><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%84%D0%B0%D0%B3%D0%BE%D1%82" target="_blank"><img src="Slike/kontrafagot.jpg" style="height: 100%"></a></td>
+            <td><div class="center"><img class="slike" id="kontrafagot" onclick="pusti(id)" src="Slike/speaker.png" style="width: 64px">
+            <br><a id="Kontrafagot" onclick="openWindow(id)">Saznajte više</a></div></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="leftext">
+            <p></p>
+        </div>
+    </div>
+
+    <div style="height: 64px;"></div>
+
+    <div class="footer">
+        <p>Copyright © Osnovna škola "Sonja Markinković"</p>
+    </div>
+
+    <audio src="Zvukovi/gitara.ogg" id="gitaraz"></audio>
+    <audio src="Zvukovi/violina.ogg" id="violinaz"></audio>
+    <audio src="Zvukovi/klavir.ogg" id="klavirz"></audio>
+    <audio src="Zvukovi/bubnjevi.ogg" id="bubnjeviz"></audio>
+    <audio src="Zvukovi/harmonika.ogg" id="harmonikaz"></audio>
+    <audio src="Zvukovi/kontrafagot.ogg" id="kontrafagotz"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
